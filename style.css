@@ -1,7 +1,10 @@
 ._sidebar {
-    height: 93vh !important;
+    height: 50rem !important;
 }
 
 
 
 
+._thead {
+    width: 20rem;
+}
