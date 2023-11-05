@@ -1,5 +1,6 @@
 ._sidebar {
     max-height: 100% !important;
+    z-index: 999;
 }
 
 
@@ -11,12 +12,47 @@
 
 
 
-
 ._card-classe{
-    width: 60rem;
+width: 100%;
 }
 
 
-._card-todo {
-    width: 20rem;
+._mycard {
+width: 25rem;
+}
+
+
+
+._accordion-header {
+    border-bottom: 1px solid rgb(192, 192, 192);
+    width: 100%;
+}
+
+
+
+._accordion-button {
+    width: 100%;
+
+}
+
+
+._card-faq {
+    width:  100%;
+}
+
+
+/* da 768px a 992px */
+
+@media screen and (max-width: 992px) { 
+
+
+._mycard {
+    width: 43rem;
+    }
+
+._title-navbar {
+    display: none;
+}
+
+
 }
