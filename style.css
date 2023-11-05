@@ -37,6 +37,7 @@ width: 25rem;
 ._accordion-button {
     width: 100%;
 
+
 }
 
 
@@ -44,31 +45,22 @@ width: 25rem;
     width:  100%;
 }
 
-
-/* da 768px a 992px */
-
-
-
-
-@media (min-width: 576px)  { 
-
-
-    ._mycard {
-        width: 30rem;
-        }
-    
-    ._title-navbar {
-        display: none;
-    }
-    
-    
-    }
+._mynavbar {
+    height: 90%;
+    width: 100%;
+}
 
 
 
 
 
-@media (min-width: 768px) { 
+
+
+
+
+
+
+@media (max-width: 576px) { 
 
 
 ._mycard {
@@ -83,3 +75,17 @@ width: 25rem;
 }
 
 
+
+@media (max-width: 768px)  { 
+
+
+    ._mycard {
+        width: 32rem;
+        }
+    
+    ._title-navbar {
+        display: none;
+    }
+    
+    
+    }
