@@ -1,9 +1,13 @@
 ._sidebar {
     max-height: 100% !important;
+    
+    
     z-index: 999;
 }
 
-
+._sidebar-container {
+    width: 100%;
+} 
 
 
 ._thead {
@@ -43,7 +47,28 @@ width: 25rem;
 
 /* da 768px a 992px */
 
-@media screen and (max-width: 992px) { 
+
+
+
+@media (min-width: 576px)  { 
+
+
+    ._mycard {
+        width: 30rem;
+        }
+    
+    ._title-navbar {
+        display: none;
+    }
+    
+    
+    }
+
+
+
+
+
+@media (min-width: 768px) { 
 
 
 ._mycard {
@@ -56,3 +81,5 @@ width: 25rem;
 
 
 }
+
+
