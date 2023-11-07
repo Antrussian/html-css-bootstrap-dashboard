@@ -169,21 +169,6 @@ font-size: 10px;
 
 
 
-._myoffcanvas {
-    width: 20vw;
-    height: 100vh;
-    z-index: 999;
-    position: absolute;
-    background-color: #051e34;
-
-}
-
-
-._myoffcanvas-container{
-height: 100%;
-width: 100%;
-    position: relative;
-}
 
 @media (max-width: 576px) { 
 
