@@ -37,9 +37,46 @@ align-items: center;
 
 
 ._thead {
-    width: 20rem;
+    width: 12rem;
+    font-size: 10px;
+    height: 100%;
+  
+
+
 }
 
+._list-items-tab {
+    font-size: 10px;
+}
+
+
+
+._button-tab {
+    border-radius: 5px;
+    border: none;
+    border: 1px solid grey;
+    height: 2rem;
+    width: 2rem;
+    
+
+}
+
+
+._badge-tab {
+    background-color: green;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 10px;
+}
+
+._nome {
+    width: 50rem;
+}
+
+._icon-list {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 
 
 ._card-classe{
